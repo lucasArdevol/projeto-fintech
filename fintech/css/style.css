@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  background-color: #181818
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #181818;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.form-signin {
+  max-width: 530px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #181818;
+  border-color: #181818;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #181818;
+  border-color: #181818;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+input{
+    background-color: #181818;
+}
+
+.form-control{
+    color: rgba(255, 255, 255, 0.2);
+}
+
